@@ -1,0 +1,35 @@
+.navbar {
+    --x-navbar-bg: #FFF;
+    --x-navbar-color: #16192C;
+    --x-navbar-icon-color: #6B7B93;
+    --x-navbar-hover-bg: #F5F9FC;
+    --x-navbar-hover-color: none !important;
+    --x-navbar-active-bg: none !important; 
+    --x-navbar-active-color: #495392;
+    --x-navbar-nav-link-padding-y: 1rem;
+    position: relative;
+    z-index: 100;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #2d59ec !important;
+    border-color: #2d59ec !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,.5);
+}
+
+.navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.navbar-nav .nav-item .nav-link  .navbar-nav .nav-link {
+    /* background-color: none !important; */
+    color: var(--x-navbar-color) !important;
+    padding-top: var(--x-navbar-nav-link-padding-y) !important;
+    padding-bottom: var(--x-navbar-nav-link-padding-y) !important;
+    transition: all .15s linear;
+}
